@@ -17,5 +17,12 @@ if apple % people > 0 :
 
 if people > apple :
     print('사람이 너무 많아! 몇 명은...')
+#  조건식 : people > apple 
 
 # 실행흐름 : 조건식이 참일 때 코드1 실행 / 조건식이 참이 아니면 실행하지 않음 or 코드2 실행 
+
+
+#2021.10.22 Progrmmers Python Basic <조건식>
+# 비교 : > , < , >= , =< , ==(같다), !=(다르다)
+# 비교 결과 : True, False (조건식에 사용 가능)
+# boolean 조건 : and(두 조건 모두 참이어야 참), or(두 조건 중 하나라도 참이면 참), not(조건 뒤집기 위해 사용, True -> False, False -> True)
