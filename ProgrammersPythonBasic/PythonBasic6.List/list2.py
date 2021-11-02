@@ -23,11 +23,13 @@ n = 10
 if n in list3 :
     print('{}은 있어!'.format(n))
 
-# 필요없는 값 지우기 
+# del을 이용해서 특정 위치의 값을 지우기
 print(list3)
-del list3[12]
+del list3[3]
+# 3번째 값을 지워라
 print(list3)
 
 # 내장함수 remove를 이용하여 특정 값 지우기
+# 여러개의 값이 있는 경우 가장 앞에 있는 하나만 지워짐
 list3.remove(40)
 print(list3)
