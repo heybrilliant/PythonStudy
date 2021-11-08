@@ -1,4 +1,4 @@
-#2021.11.07 Progrmmers Python Basic <딕셔너리와 리스트 비교>
+#2021.11.08 Progrmmers Python Basic <딕셔너리와 리스트 비교>
 
 # 값을 호출할 때
 list = [1,2,3,4,5]
