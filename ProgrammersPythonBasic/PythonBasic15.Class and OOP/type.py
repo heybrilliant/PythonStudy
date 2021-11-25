@@ -13,5 +13,8 @@ print(42.0) # <class 'float'>
 print(42 == 42.0) #True 출력
 
 
-isinstance(42, int)
-isinstance(42, float)
+# isinstance(값, 자료형) = 자료형 검사
+isinstance(42, int) # True 출력
+isinstance(42, float) # False 출력
+isinstance(42.0, float) # True 출력 
+isinstance(42.0, int) # False 출력
